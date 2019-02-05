@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+    <title>Portfolio</title>
+    <style>
+       #content{
+           max-width: 925px;
+           max-height: 500px;
+       }
+       body{
+           padding: 0px;
+           margin: 0px;
+           background-image: url(img/imgl1.jpg);
+           background-size: cover;
+       }
+       header{
+           display: block;
+           background-color: rgba(110, 13, 78,0.5);
+       }
+       #header-bar{
+           margin: 0;
+           padding: 0; 
+       }
+      #header-bar > h3{
+           margin: 0;
+           padding: 5px;
+           color: #fff;
+           font-size: 2rem;
+           
+       }
+       .link{
+           padding: 10px 20px; 
+           float: right;    
+       }
+       .link:hover {
+            border-bottom: 2px rgb(73, 12, 73) solid;
+       }
+      .link a{
+          text-decoration: none;
+          display: inline-block;
+          color: rgb(104, 20, 104);
+          font-size: 20px;
+          font-weight: 300;
+      }
+      nav{
+          display: block;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header-bar">
+            <h3>My Portfolio</h3>
+            
+        </div>
+        <nav>
+            <div class="link"><a href="#">Home</a></div>
+            <div class="link"><a href="#">Contacts</a></div>
+            <div class="link"><a href="#">About</a></div>
+        </nav>
+    </header>
+    
+    <sidebar></sidebar>
+    <article id="content">
+        
+    </article>
+</body>
+</html>
